@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: webjf
+    env: docker
+    plan: free
+    repo: https://github.com/TU-USUARIO/laboratorio02nube
+    region: oregon
+    branch: main
+    rootDir: .
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
